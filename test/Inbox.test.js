@@ -8,7 +8,7 @@ const contractFile = require("../compile");
 const bytecode = contractFile.evm.bytecode.object;
 const abi = contractFile.abi;
 
-const provider = new Web3HttpProvider("http://localhost:7545");
+const provider = new Web3HttpProvider("http://localhost:8545");
 // const provider = ganache.provider()
 
 const web3 = new Web3(provider);
