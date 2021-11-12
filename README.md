@@ -13,7 +13,7 @@ This is just a simple project build with Solidity and JavaScript.
 
 ### Built With
 
-- [Solidity](hhttps://docs.soliditylang.org/en/v0.8.10/)
+- [Solidity](https://docs.soliditylang.org/en/v0.8.10/)
 - [web3](https://web3js.readthedocs.io/en/v1.5.2/)
 - [mocha](https://mochajs.org/)
 
@@ -27,4 +27,4 @@ This is just a simple project build with Solidity and JavaScript.
    ```sh
    npm install
    ```
-3. To run the project locally, install and run [Ganache](https://www.trufflesuite.com/ganache)
+3. Install and run [Ganache](https://www.trufflesuite.com/ganache), you can also use the docker-file to run a ganache server locally
